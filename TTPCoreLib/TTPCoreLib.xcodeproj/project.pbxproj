@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3365C6AE162E2BC6003A06C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3365C6AD162E2BC6003A06C1 /* Foundation.framework */; };
+		3365C6B3162E2BC6003A06C1 /* TTPCoreLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3365C6B2162E2BC6003A06C1 /* TTPCoreLib.h */; };
+		3365C6B5162E2BC6003A06C1 /* TTPCoreLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 3365C6B4162E2BC6003A06C1 /* TTPCoreLib.m */; };
+		3365C6BD162E2BC7003A06C1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3365C6BC162E2BC7003A06C1 /* SenTestingKit.framework */; };
+		3365C6C0162E2BC7003A06C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3365C6AD162E2BC6003A06C1 /* Foundation.framework */; };
+		3365C6C3162E2BC7003A06C1 /* libTTPCoreLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3365C6AA162E2BC6003A06C1 /* libTTPCoreLib.a */; };
+		3365C6C9162E2BC7003A06C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3365C6C7162E2BC7003A06C1 /* InfoPlist.strings */; };
+		3365C6CC162E2BC7003A06C1 /* TTPCoreLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3365C6CB162E2BC7003A06C1 /* TTPCoreLibTests.m */; };
+		3365C6D8162E2DE0003A06C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3365C6D7162E2DE0003A06C1 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3365C6C1162E2BC7003A06C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3365C6A1162E2BC6003A06C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3365C6A9162E2BC6003A06C1;
+			remoteInfo = TTPCoreLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3365C6A8162E2BC6003A06C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				3365C6B3162E2BC6003A06C1 /* TTPCoreLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3365C6AA162E2BC6003A06C1 /* libTTPCoreLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTTPCoreLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3365C6AD162E2BC6003A06C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3365C6B1162E2BC6003A06C1 /* TTPCoreLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTPCoreLib-Prefix.pch"; sourceTree = "<group>"; };
+		3365C6B2162E2BC6003A06C1 /* TTPCoreLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTPCoreLib.h; sourceTree = "<group>"; };
+		3365C6B4162E2BC6003A06C1 /* TTPCoreLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTPCoreLib.m; sourceTree = "<group>"; };
+		3365C6BB162E2BC7003A06C1 /* TTPCoreLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTPCoreLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3365C6BC162E2BC7003A06C1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3365C6C6162E2BC7003A06C1 /* TTPCoreLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTPCoreLibTests-Info.plist"; sourceTree = "<group>"; };
+		3365C6C8162E2BC7003A06C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3365C6CA162E2BC7003A06C1 /* TTPCoreLibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTPCoreLibTests.h; sourceTree = "<group>"; };
+		3365C6CB162E2BC7003A06C1 /* TTPCoreLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTPCoreLibTests.m; sourceTree = "<group>"; };
+		3365C6D7162E2DE0003A06C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3365C6A7162E2BC6003A06C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3365C6AE162E2BC6003A06C1 /* Foundation.framework in Frameworks */,
+				3365C6D8162E2DE0003A06C1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3365C6B7162E2BC6003A06C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3365C6BD162E2BC7003A06C1 /* SenTestingKit.framework in Frameworks */,
+				3365C6C0162E2BC7003A06C1 /* Foundation.framework in Frameworks */,
+				3365C6C3162E2BC7003A06C1 /* libTTPCoreLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3365C69F162E2BC6003A06C1 = {
+			isa = PBXGroup;
+			children = (
+				3365C6AF162E2BC6003A06C1 /* TTPCoreLib */,
+				3365C6C4162E2BC7003A06C1 /* TTPCoreLibTests */,
+				3365C6AC162E2BC6003A06C1 /* Frameworks */,
+				3365C6AB162E2BC6003A06C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3365C6AB162E2BC6003A06C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3365C6AA162E2BC6003A06C1 /* libTTPCoreLib.a */,
+				3365C6BB162E2BC7003A06C1 /* TTPCoreLibTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3365C6AC162E2BC6003A06C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3365C6D7162E2DE0003A06C1 /* UIKit.framework */,
+				3365C6AD162E2BC6003A06C1 /* Foundation.framework */,
+				3365C6BC162E2BC7003A06C1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3365C6AF162E2BC6003A06C1 /* TTPCoreLib */ = {
+			isa = PBXGroup;
+			children = (
+				3365C6B2162E2BC6003A06C1 /* TTPCoreLib.h */,
+				3365C6B4162E2BC6003A06C1 /* TTPCoreLib.m */,
+				3365C6B0162E2BC6003A06C1 /* Supporting Files */,
+			);
+			path = TTPCoreLib;
+			sourceTree = "<group>";
+		};
+		3365C6B0162E2BC6003A06C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3365C6B1162E2BC6003A06C1 /* TTPCoreLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3365C6C4162E2BC7003A06C1 /* TTPCoreLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				3365C6CA162E2BC7003A06C1 /* TTPCoreLibTests.h */,
+				3365C6CB162E2BC7003A06C1 /* TTPCoreLibTests.m */,
+				3365C6C5162E2BC7003A06C1 /* Supporting Files */,
+			);
+			path = TTPCoreLibTests;
+			sourceTree = "<group>";
+		};
+		3365C6C5162E2BC7003A06C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3365C6C6162E2BC7003A06C1 /* TTPCoreLibTests-Info.plist */,
+				3365C6C7162E2BC7003A06C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3365C6A9162E2BC6003A06C1 /* TTPCoreLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3365C6CF162E2BC7003A06C1 /* Build configuration list for PBXNativeTarget "TTPCoreLib" */;
+			buildPhases = (
+				3365C6A6162E2BC6003A06C1 /* Sources */,
+				3365C6A7162E2BC6003A06C1 /* Frameworks */,
+				3365C6A8162E2BC6003A06C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTPCoreLib;
+			productName = TTPCoreLib;
+			productReference = 3365C6AA162E2BC6003A06C1 /* libTTPCoreLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3365C6BA162E2BC6003A06C1 /* TTPCoreLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3365C6D2162E2BC7003A06C1 /* Build configuration list for PBXNativeTarget "TTPCoreLibTests" */;
+			buildPhases = (
+				3365C6B6162E2BC6003A06C1 /* Sources */,
+				3365C6B7162E2BC6003A06C1 /* Frameworks */,
+				3365C6B8162E2BC6003A06C1 /* Resources */,
+				3365C6B9162E2BC6003A06C1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3365C6C2162E2BC7003A06C1 /* PBXTargetDependency */,
+			);
+			name = TTPCoreLibTests;
+			productName = TTPCoreLibTests;
+			productReference = 3365C6BB162E2BC7003A06C1 /* TTPCoreLibTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3365C6A1162E2BC6003A06C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 3365C6A4162E2BC6003A06C1 /* Build configuration list for PBXProject "TTPCoreLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3365C69F162E2BC6003A06C1;
+			productRefGroup = 3365C6AB162E2BC6003A06C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3365C6A9162E2BC6003A06C1 /* TTPCoreLib */,
+				3365C6BA162E2BC6003A06C1 /* TTPCoreLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3365C6B8162E2BC6003A06C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3365C6C9162E2BC7003A06C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3365C6B9162E2BC6003A06C1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3365C6A6162E2BC6003A06C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3365C6B5162E2BC6003A06C1 /* TTPCoreLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3365C6B6162E2BC6003A06C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3365C6CC162E2BC7003A06C1 /* TTPCoreLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3365C6C2162E2BC7003A06C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3365C6A9162E2BC6003A06C1 /* TTPCoreLib */;
+			targetProxy = 3365C6C1162E2BC7003A06C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3365C6C7162E2BC7003A06C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3365C6C8162E2BC7003A06C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3365C6CD162E2BC7003A06C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3365C6CE162E2BC7003A06C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3365C6D0162E2BC7003A06C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TTPCoreLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTPCoreLib/TTPCoreLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3365C6D1162E2BC7003A06C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TTPCoreLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTPCoreLib/TTPCoreLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3365C6D3162E2BC7003A06C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTPCoreLib/TTPCoreLib-Prefix.pch";
+				INFOPLIST_FILE = "TTPCoreLibTests/TTPCoreLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3365C6D4162E2BC7003A06C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTPCoreLib/TTPCoreLib-Prefix.pch";
+				INFOPLIST_FILE = "TTPCoreLibTests/TTPCoreLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3365C6A4162E2BC6003A06C1 /* Build configuration list for PBXProject "TTPCoreLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3365C6CD162E2BC7003A06C1 /* Debug */,
+				3365C6CE162E2BC7003A06C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3365C6CF162E2BC7003A06C1 /* Build configuration list for PBXNativeTarget "TTPCoreLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3365C6D0162E2BC7003A06C1 /* Debug */,
+				3365C6D1162E2BC7003A06C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3365C6D2162E2BC7003A06C1 /* Build configuration list for PBXNativeTarget "TTPCoreLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3365C6D3162E2BC7003A06C1 /* Debug */,
+				3365C6D4162E2BC7003A06C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3365C6A1162E2BC6003A06C1 /* Project object */;
+}

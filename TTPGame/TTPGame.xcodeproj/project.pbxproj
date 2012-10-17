@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3365C66B162E2AF7003A06C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3365C66A162E2AF7003A06C1 /* UIKit.framework */; };
+		3365C66D162E2AF7003A06C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3365C66C162E2AF7003A06C1 /* Foundation.framework */; };
+		3365C66F162E2AF7003A06C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3365C66E162E2AF7003A06C1 /* CoreGraphics.framework */; };
+		3365C675162E2AF7003A06C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3365C673162E2AF7003A06C1 /* InfoPlist.strings */; };
+		3365C677162E2AF7003A06C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3365C676162E2AF7003A06C1 /* main.m */; };
+		3365C67B162E2AF7003A06C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3365C67A162E2AF7003A06C1 /* AppDelegate.m */; };
+		3365C67D162E2AF7003A06C1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3365C67C162E2AF7003A06C1 /* Default.png */; };
+		3365C67F162E2AF7003A06C1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3365C67E162E2AF7003A06C1 /* Default@2x.png */; };
+		3365C681162E2AF7003A06C1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3365C680162E2AF7003A06C1 /* Default-568h@2x.png */; };
+		3365C689162E2AF7003A06C1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3365C688162E2AF7003A06C1 /* SenTestingKit.framework */; };
+		3365C68A162E2AF7003A06C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3365C66A162E2AF7003A06C1 /* UIKit.framework */; };
+		3365C68B162E2AF7003A06C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3365C66C162E2AF7003A06C1 /* Foundation.framework */; };
+		3365C693162E2AF7003A06C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3365C691162E2AF7003A06C1 /* InfoPlist.strings */; };
+		3365C696162E2AF7003A06C1 /* TTPGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3365C695162E2AF7003A06C1 /* TTPGameTests.m */; };
+		3365C6D6162E2DA4003A06C1 /* libTTPCoreLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3365C6D5162E2DA4003A06C1 /* libTTPCoreLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3365C68C162E2AF7003A06C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3365C65D162E2AF7003A06C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3365C665162E2AF7003A06C1;
+			remoteInfo = TTPGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3365C666162E2AF7003A06C1 /* TTPGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTPGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3365C66A162E2AF7003A06C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3365C66C162E2AF7003A06C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3365C66E162E2AF7003A06C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3365C672162E2AF7003A06C1 /* TTPGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTPGame-Info.plist"; sourceTree = "<group>"; };
+		3365C674162E2AF7003A06C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3365C676162E2AF7003A06C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3365C678162E2AF7003A06C1 /* TTPGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTPGame-Prefix.pch"; sourceTree = "<group>"; };
+		3365C679162E2AF7003A06C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3365C67A162E2AF7003A06C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3365C67C162E2AF7003A06C1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3365C67E162E2AF7003A06C1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3365C680162E2AF7003A06C1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3365C687162E2AF7003A06C1 /* TTPGameTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTPGameTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3365C688162E2AF7003A06C1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3365C690162E2AF7003A06C1 /* TTPGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTPGameTests-Info.plist"; sourceTree = "<group>"; };
+		3365C692162E2AF7003A06C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3365C694162E2AF7003A06C1 /* TTPGameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTPGameTests.h; sourceTree = "<group>"; };
+		3365C695162E2AF7003A06C1 /* TTPGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTPGameTests.m; sourceTree = "<group>"; };
+		3365C6D5162E2DA4003A06C1 /* libTTPCoreLib.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libTTPCoreLib.a; path = "../TTPCoreLib/build/Release-iphoneos/libTTPCoreLib.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3365C663162E2AF7003A06C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3365C6D6162E2DA4003A06C1 /* libTTPCoreLib.a in Frameworks */,
+				3365C66B162E2AF7003A06C1 /* UIKit.framework in Frameworks */,
+				3365C66D162E2AF7003A06C1 /* Foundation.framework in Frameworks */,
+				3365C66F162E2AF7003A06C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3365C683162E2AF7003A06C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3365C689162E2AF7003A06C1 /* SenTestingKit.framework in Frameworks */,
+				3365C68A162E2AF7003A06C1 /* UIKit.framework in Frameworks */,
+				3365C68B162E2AF7003A06C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3365C65B162E2AF7003A06C1 = {
+			isa = PBXGroup;
+			children = (
+				3365C6D5162E2DA4003A06C1 /* libTTPCoreLib.a */,
+				3365C670162E2AF7003A06C1 /* TTPGame */,
+				3365C68E162E2AF7003A06C1 /* TTPGameTests */,
+				3365C669162E2AF7003A06C1 /* Frameworks */,
+				3365C667162E2AF7003A06C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3365C667162E2AF7003A06C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3365C666162E2AF7003A06C1 /* TTPGame.app */,
+				3365C687162E2AF7003A06C1 /* TTPGameTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3365C669162E2AF7003A06C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3365C66A162E2AF7003A06C1 /* UIKit.framework */,
+				3365C66C162E2AF7003A06C1 /* Foundation.framework */,
+				3365C66E162E2AF7003A06C1 /* CoreGraphics.framework */,
+				3365C688162E2AF7003A06C1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3365C670162E2AF7003A06C1 /* TTPGame */ = {
+			isa = PBXGroup;
+			children = (
+				3365C679162E2AF7003A06C1 /* AppDelegate.h */,
+				3365C67A162E2AF7003A06C1 /* AppDelegate.m */,
+				3365C671162E2AF7003A06C1 /* Supporting Files */,
+			);
+			path = TTPGame;
+			sourceTree = "<group>";
+		};
+		3365C671162E2AF7003A06C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3365C672162E2AF7003A06C1 /* TTPGame-Info.plist */,
+				3365C673162E2AF7003A06C1 /* InfoPlist.strings */,
+				3365C676162E2AF7003A06C1 /* main.m */,
+				3365C678162E2AF7003A06C1 /* TTPGame-Prefix.pch */,
+				3365C67C162E2AF7003A06C1 /* Default.png */,
+				3365C67E162E2AF7003A06C1 /* Default@2x.png */,
+				3365C680162E2AF7003A06C1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3365C68E162E2AF7003A06C1 /* TTPGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				3365C694162E2AF7003A06C1 /* TTPGameTests.h */,
+				3365C695162E2AF7003A06C1 /* TTPGameTests.m */,
+				3365C68F162E2AF7003A06C1 /* Supporting Files */,
+			);
+			path = TTPGameTests;
+			sourceTree = "<group>";
+		};
+		3365C68F162E2AF7003A06C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3365C690162E2AF7003A06C1 /* TTPGameTests-Info.plist */,
+				3365C691162E2AF7003A06C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3365C665162E2AF7003A06C1 /* TTPGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3365C699162E2AF7003A06C1 /* Build configuration list for PBXNativeTarget "TTPGame" */;
+			buildPhases = (
+				3365C662162E2AF7003A06C1 /* Sources */,
+				3365C663162E2AF7003A06C1 /* Frameworks */,
+				3365C664162E2AF7003A06C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTPGame;
+			productName = TTPGame;
+			productReference = 3365C666162E2AF7003A06C1 /* TTPGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3365C686162E2AF7003A06C1 /* TTPGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3365C69C162E2AF7003A06C1 /* Build configuration list for PBXNativeTarget "TTPGameTests" */;
+			buildPhases = (
+				3365C682162E2AF7003A06C1 /* Sources */,
+				3365C683162E2AF7003A06C1 /* Frameworks */,
+				3365C684162E2AF7003A06C1 /* Resources */,
+				3365C685162E2AF7003A06C1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3365C68D162E2AF7003A06C1 /* PBXTargetDependency */,
+			);
+			name = TTPGameTests;
+			productName = TTPGameTests;
+			productReference = 3365C687162E2AF7003A06C1 /* TTPGameTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3365C65D162E2AF7003A06C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 3365C660162E2AF7003A06C1 /* Build configuration list for PBXProject "TTPGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3365C65B162E2AF7003A06C1;
+			productRefGroup = 3365C667162E2AF7003A06C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3365C665162E2AF7003A06C1 /* TTPGame */,
+				3365C686162E2AF7003A06C1 /* TTPGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3365C664162E2AF7003A06C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3365C675162E2AF7003A06C1 /* InfoPlist.strings in Resources */,
+				3365C67D162E2AF7003A06C1 /* Default.png in Resources */,
+				3365C67F162E2AF7003A06C1 /* Default@2x.png in Resources */,
+				3365C681162E2AF7003A06C1 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3365C684162E2AF7003A06C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3365C693162E2AF7003A06C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3365C685162E2AF7003A06C1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3365C662162E2AF7003A06C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3365C677162E2AF7003A06C1 /* main.m in Sources */,
+				3365C67B162E2AF7003A06C1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3365C682162E2AF7003A06C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3365C696162E2AF7003A06C1 /* TTPGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3365C68D162E2AF7003A06C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3365C665162E2AF7003A06C1 /* TTPGame */;
+			targetProxy = 3365C68C162E2AF7003A06C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3365C673162E2AF7003A06C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3365C674162E2AF7003A06C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3365C691162E2AF7003A06C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3365C692162E2AF7003A06C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3365C697162E2AF7003A06C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3365C698162E2AF7003A06C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3365C69A162E2AF7003A06C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTPGame/TTPGame-Prefix.pch";
+				INFOPLIST_FILE = "TTPGame/TTPGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3365C69B162E2AF7003A06C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTPGame/TTPGame-Prefix.pch";
+				INFOPLIST_FILE = "TTPGame/TTPGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3365C69D162E2AF7003A06C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TTPGame.app/TTPGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTPGame/TTPGame-Prefix.pch";
+				INFOPLIST_FILE = "TTPGameTests/TTPGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3365C69E162E2AF7003A06C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TTPGame.app/TTPGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTPGame/TTPGame-Prefix.pch";
+				INFOPLIST_FILE = "TTPGameTests/TTPGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3365C660162E2AF7003A06C1 /* Build configuration list for PBXProject "TTPGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3365C697162E2AF7003A06C1 /* Debug */,
+				3365C698162E2AF7003A06C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3365C699162E2AF7003A06C1 /* Build configuration list for PBXNativeTarget "TTPGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3365C69A162E2AF7003A06C1 /* Debug */,
+				3365C69B162E2AF7003A06C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3365C69C162E2AF7003A06C1 /* Build configuration list for PBXNativeTarget "TTPGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3365C69D162E2AF7003A06C1 /* Debug */,
+				3365C69E162E2AF7003A06C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3365C65D162E2AF7003A06C1 /* Project object */;
+}
